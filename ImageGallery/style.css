@@ -1,0 +1,23 @@
+img{
+    width: 30%;
+    margin: 5px;
+}
+
+.container{
+   
+   width: 80%;
+   margin:0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+main{
+   color:white; 
+   border: 1px solid red;
+   width: 80%;
+   margin:50px auto;
+   background-color: black;
+   padding-bottom: 50px;
+
+}

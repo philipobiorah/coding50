@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <nav>
+           <a href="home.html">Home</a>
+           <a href="about.html">
+               About us</a>
+           <a href="contact.html">Contact us</a>
+           <a href="codingtimetable.html">TimeTable</a>
+        </nav>
+        <form action="1serverlikedat"
+         method="GET">
+        <h1>Registration</h1>
+         <label>Username: 
+            <input type="text"
+             required name="username">
+        </label>
+        <br>
+        <label>
+        Date:
+        <input type="date">
+        </label>
+        <label> <br>
+        Color:
+        <input type="color">
+        </label>
+        <br>
+        <label>
+           Upload Passport: 
+           <input type="file" required>
+        </label>
+        <br>
+        <label>
+          Male:<input type="radio" 
+          name="gender" >
+        </label>
+        <label>
+           Female:<input type="radio"
+            name="gender">
+        </label>
+        <br>
+        <label>State of Origin:
+        <select name="state">
+           <option>Rivers</option>
+           <option>Cross Rivers</option>
+           <option>Bayelsa</option>
+           <option>Others</option>
+        </select> 
+        </label> 
+        <br>
+        <label> Comments:<br>
+            <textarea 
+              rows="4"
+             cols="40">
+            </textarea>
+        </label>
+        <br>
+                <button type="submit">
+            Register</button>
+        </form>
+        <footer>
+            <small>Website design by Me</small>
+        </footer>
+    </body>
+</html>

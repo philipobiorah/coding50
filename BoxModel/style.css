@@ -1,0 +1,28 @@
+h1{
+border: 1px solid red;
+margin: 10px 50px;
+width: 100px;
+padding: 30px;
+
+}
+
+.red_bg{
+    background-color: red;
+    color: beige;
+}
+
+.blue_bg{
+    background-color: blue;
+    color: chartreuse;
+}
+
+#special{
+    background-color: black;
+}
+.red_bg{
+    background-color: brown;
+}
+
+h1{
+    background-color: grey !important;   
+}

@@ -1,0 +1,27 @@
+div{
+    border: 1px solid red;
+    width: 40px;
+    height: 40px;
+    padding: 30px;
+    text-align: center;
+    margin: 10px 10px;
+    border-radius: 50%;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.even{
+    background-color:blue;
+}
+
+.odd{
+    background-color: red;
+}
+
+#special{
+    background-color: green;
+}
+
+.stubborn{
+   margin-left: 50px;
+}

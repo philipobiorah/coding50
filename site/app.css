@@ -1,0 +1,29 @@
+h1{
+    color: purple;
+    font-size: 56px;
+}
+img{
+    border-color:ghostwhite;
+    border-width: 3px;
+    border-style: solid;
+}
+h2{
+    color:rgb(56, 3, 56);
+}
+article{
+    border: 5px solid ghostwhite;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+header{
+    background-color: gold;
+    border-radius: 10px;
+    
+}
+
+li{
+    list-style-type: none;
+}

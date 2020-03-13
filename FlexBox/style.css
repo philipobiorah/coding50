@@ -1,0 +1,44 @@
+/*Multiple Element selector */
+.title , h2{
+    border: 1px solid rosybrown;
+    background-color: aliceblue;
+}
+
+/*Descendant Selector */
+nav ul{
+    /* background-color: burlywood; */
+}
+
+/*Child Selector */
+ul > li{
+    border: 1px solid sandybrown;
+    background-color: chocolate;
+}
+
+/* Ajacent Sibling Selector */
+  h1 + p{
+     color:darkolivegreen;
+ }
+
+ /*Attribute Selector */
+ [class="title"]{
+     color: forestgreen;
+ }
+
+ /* Pseudo class selector */
+ a:link{
+     color: darkkhaki;
+ }
+ a:visited{
+     color: turquoise;
+ }
+ a:hover{
+     background-color: aliceblue;
+ }
+
+ nav li{
+     list-style-type: none;
+     width: 200px;
+   
+ }
+ 
